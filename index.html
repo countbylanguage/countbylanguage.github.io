@@ -1,26 +1,25 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="./footer.js"></script>
-  <title>Language Numbers</title>
-  <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>CountByLanguage: Numbers in Different World Languages</title>
+
 </head>
-
 <body>
-  <h1>CountByLanguage</h1>
-  <p><i>Numbers from 0 to 10 in world languages</i></p>
 
-  <h2>Dravidian Languages</h2>
-  <div class="button-container" style="margin-top: 1em;">
+<h1>CountByLanguage</h1>
+<p>Numbers in different world languages</p>
+
+<button class="accordion">Dravidian Languages</button>
+<div class="panel inactive">
+	<p> </p>
     <a href=./dravidian/proto-dravidian.html class="button">Proto-Dravidian</a>
     <a href=./dravidian/sindhi-ati-dakkar.html class="button">Sindhi Ati-Dakkar</a>
-  </div>
-  <h3><i>South-Central</i></h3>
-  <div class="button-container" style="margin-top: 1em;">
+    <p> </p>
+  <button class="accordion">South-Central Dravidian Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./dravidian/telugu.html class="button">Telugu</a>
     <a href=./dravidian/aheri-gondi.html class="button">Aheri Gondi</a>
     <a href=./dravidian/adilabad-gondi.html class="button">Adilabad Gondi</a>
@@ -29,9 +28,11 @@
     <a href=./dravidian/pengo.html class="button">Pengo</a>
     <a href=./dravidian/manda.html class="button">Manda</a>
     <a href=./dravidian/kuvi.html class="button">Kuvi</a>
+    <p> </p>
   </div>
-  <h3><i>Southern</i></h3>
-  <div class="button-container" style="margin-top: 1em;">
+  <button class="accordion">South Dravidian Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./dravidian/tamil.html class="button">Tamil</a>
     <a href=./dravidian/malayalam.html class="button">Malayalam</a>
     <a href=./dravidian/kannada.html class="button">Kannada</a>
@@ -49,131 +50,226 @@
     <a href=./dravidian/irula.html class="button">Irula</a>
     <a href=./dravidian/pattapu.html class="button">Pattapu</a>
     <a href=./dravidian/kaikadi.html class="button">Kaikadi</a>
-</div>
-  <h3><i>Northern</i></h3>
-  <div class="button-container" style="margin-top: 1em;">
+    <p> </p>
+  </div>
+  <button class="accordion">North Dravidian Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./dravidian/brahui.html class="button">Brahui</a>
     <a href=./dravidian/kurux.html class="button">Kurux</a>
     <a href=./dravidian/malto.html class="button">Malto</a>
+    <p> </p>
   </div>
-  <h3><i>Central</i></h3>
-  <div class="button-container" style="margin-top: 1em;">
+  <button class="accordion">Central Dravidian Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./dravidian/naiki.html class="button">Naiki</a>
     <a href=./dravidian/kolami.html class="button">Kolami</a>
     <a href=./dravidian/duruwa.html class="button">Duruwa</a>
     <a href=./dravidian/kondekor.html class="button">Kondekor</a>
+    <p> </p>
+  </div>
 </div>
 
-  <h2>Indo-European Languages</h2>
 
-  <div class="button-container" style="margin-top: 1em;">
-    <!-- <a href=protodravidian.html class="button">Proto-Dravidian</a> -->
+<button class="accordion">Indo-European Languages</button>
+<div class="panel inactive">
+  <p> </p>
+  <button class="accordion">Indo-Iranian Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./indo-european/odia.html class="button">Odia</a>
     <a href=./indo-european/sinhala.html class="button">Sinhala</a>
-    <a href=./indo-european/aromanian.html class="button">Aromanian</a>
-    <a href=./indo-european/northern-english-sheep-counting.html class="button">Northern English Sheep Counting</a>
     <a href=./indo-european/gurezi-shina.html class="button">Gurezi Shina</a>
+    <p> </p>
+  </div>
+  <button class="accordion">Romance Languages</button>
+    <div class="panel inactive">
+    <p> </p>
+    <a href=./indo-european/aromanian.html class="button">Aromanian</a>
+    <p> </p>
+  </div>
+  <button class="accordion">Germanic Languages</button>
+    <div class="panel inactive">
+    <p> </p>
+    <a href=./indo-european/northern-english-sheep-counting.html class="button">Northern English Sheep Counting</a>
+    <p> </p>
+  </div>
 </div>
 
-  <h2>Sino-Tibetan Languages</h2>
-
-  <div class="button-container" style="margin-top: 1em;">
-    <!-- <a href=./docs/protodravidian.html class="button">Proto-Dravidian</a> -->
+<button class="accordion">Sino-Tibetan Languages</button>
+<div class="panel inactive">
+  <p> </p>
+  <button class="accordion">Tibeto-Burman Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./sino-tibetan/lepcha.html class="button">Lepcha</a>
     <a href=./sino-tibetan/kokborok.html class="button">Kokborok</a>
     <a href=./sino-tibetan/nyishi.html class="button">Nyishi</a>
     <a href=./sino-tibetan/pangkhua.html class="button">Pangkhua</a>
     <a href=./sino-tibetan/atong.html class="button">Atong</a>
+    <a href=./sino-tibetan/sartang.html class="button">Sartang</a>
+    <a href=./sino-tibetan/bugun.html class="button">Bugun</a>
+    <p> </p>
   </div>
+</div>
 
-  <h2>Utian Languages</h2>
-
-  <div class="button-container" style="margin-top: 1em;">
+<button class="accordion">Utian Languages</button>
+<div class="panel inactive">
+  <p> </p>
+  <button class="accordion">Miwok Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./utian/lake-miwok.html class="button">Lake Miwok</a>
     <a href=./utian/central-sierra-miwok.html class="button">Central Sierra Miwok</a>
     <a href=./utian/plains-miwok.html class="button">Plains Miwok</a>
+    <p> </p>
   </div>
+</div>
 
-  <h2>Pama-Nyungan Languages</h2>
-
-  <div class="button-container" style="margin-top: 1em;">
+<button class="accordion">Pama-Nyungan Languages</button>
+<div class="panel inactive">
+  <p> </p>
+  <button class="accordion">Wati Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./pama-nyungan/pitjantjatjara.html class="button">Pitjantjatjara</a>
+    <p> </p>
   </div>
+</div>
 
-  <h2>Austroasiatic Languages</h2>
-
-  <div class="button-container" style="margin-top: 1em;">
+<button class="accordion">Austroasiatic Languages</button>
+<div class="panel inactive">
+  <p> </p>
+  <button class="accordion">Munda Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./austroasiatic/mundari.html class="button">Mundari</a>
     <a href=./austroasiatic/santali.html class="button">Santali</a>
+    <a href=./austroasiatic/ho.html class="button">Ho</a>
+    <p> </p>
+  </div>
+  <button class="accordion">Khasi-Palaungic Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./austroasiatic/pnar.html class="button">Pnar</a>
     <a href=./austroasiatic/khasi.html class="button">Khasi</a>
+    <p> </p>
+  </div>
+  <button class="accordion">Nicobarese Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./austroasiatic/nancowry.html class="button">Nancowry</a>
     <a href=./austroasiatic/car.html class="button">Car</a>
+    <p> </p>
+  </div>
+  <button class="accordion">Aslian Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./austroasiatic/kensiu.html class="button">Kensiu</a>
+    <p> </p>
+  </div>
+  <button class="accordion">Bahnaric Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./austroasiatic/mnong.html class="button">Mnong</a>
+    <p> </p>
+  </div>
+  <button class="accordion">Monic Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./austroasiatic/mon.html class="button">Mon</a>
     <a href=./austroasiatic/nyah-kur.html class="button">Nyah-Kur</a>
-    <a href=./austroasiatic/ho.html class="button">Ho</a>
+    <p> </p>
   </div>
+</div>
 
-  <h2>Tupian Languages</h2>
-
-  <div class="button-container" style="margin-top: 1em;">
+<button class="accordion">Tupian Languages</button>
+<div class="panel inactive">
+  <p> </p>
+  <button class="accordion">Tupi-Guaraní Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./tupian/old-tupi.html class="button">Old Tupi</a>
+    <p> </p>
   </div>
+</div>
 
-  <h2>Austronesian Languages</h2>
-
-  <div class="button-container" style="margin-top: 1em;">
-    <a href=./austronesian/proto-austronesian.html class="button">Proto-Austronesian</a>
+<button class="accordion">Austronesian Languages</button>
+<div class="panel inactive">
+  <p> </p>
+  <a href=./austronesian/proto-austronesian.html class="button">Proto-Austronesian</a>
+  <p> </p>
+  <button class="accordion">Malayo-Polynesian Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./austronesian/proto-malayo-polynesian.html class="button">Proto-Malayo-Polynesian</a>
     <a href=./austronesian/makassarese.html class="button">Makassarese</a>
     <a href=./austronesian/yami.html class="button">Yami</a>
+    <p> </p>
   </div>
+</div>
 
-  <h2>Central Sudanic Languages</h2>
-
-  <div class="button-container" style="margin-top: 1em;">
+<button class="accordion">Central Sudanic Languages</button>
+<div class="panel inactive">
+  <p> </p>
+  <button class="accordion">Eastern Central Sudanic Languages</button>
+    <div class="panel inactive">
+    <p> </p>
     <a href=./central-sudanic/mangbetu.html class="button">Mangbetu</a>
     <a href=./central-sudanic/mangbutu.html class="button">Mangbutu</a>
     <a href=./central-sudanic/lendu.html class="button">Lendu</a>
+    <p> </p>
   </div>
+</div>
 
-  <h2>Ongan Languages</h2>
-
-  <div class="button-container" style="margin-top: 1em;">
+<button class="accordion">Ongan Languages</button>
+<div class="panel inactive">
+  <p> </p>
     <a href=./ongan/proto-ongan.html class="button">Proto-Ongan</a>
     <a href=./ongan/jarawa.html class="button">Jarawa</a>
     <a href=./ongan/onge.html class="button">Onge</a>
+  <p> </p>
+  </div>
 </div>
 
-    <h2>Great Andamanese Languages</h2>
-
-    <div class="button-container" style="margin-top: 1em;">
+<button class="accordion">Great Andamanese Languages</button>
+<div class="panel inactive">
+  <p> </p>
       <a href=./great-andamanese/great-andamanese-koine.html class="button">Great Andamanese Koiné</a>
-  </div>
-  
-    <h2>Niger-Congo Languages</h2>
+  <p> </p>
+</div>
 
-    <div class="button-container" style="margin-top: 1em;">
+<button class="accordion">Atlantic-Congo Languages</button>
+<div class="panel inactive">
+  <p> </p>
+  <button class="accordion">Volta-Niger Languages</button>
+    <div class="panel inactive">
+    <p> </p>
       <a href=./niger-congo/gbari.html class="button">Gbari</a>
+    <p> </p>
   </div>
+</div>
 
-    <h2>Kho-Bwa Languages</h2>
-
-    <div class="button-container" style="margin-top: 1em;">
-      <a href=./kho-bwa/sartang.html class="button">Sartang</a>
-      <a href=./kho-bwa/bugun.html class="button">Bugun</a>
-  </div>
-
-    <h2>Isolates</h2>
-
-    <div class="button-container" style="margin-top: 1em;">
+<button class="accordion">Isolates</button>
+<div class="panel inactive">
+  <p> </p>
       <a href=./isolates/nihali.html class="button">Nihali</a>
       <a href=./isolates/kusunda.html class="button">Kusunda</a>
-  </div>
+  <p> </p>
+</div>
 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+	acc[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var panel = this.nextElementSibling;
+		panel.classList.toggle("inactive");
+	});
+}
+</script>
 
 </body>
-
 </html>
